@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { Slot, SplashScreen } from 'expo-router'
+import { Slot, SplashScreen, Stack } from 'expo-router'
 import { useFonts } from 'expo-font';
 
 import './global.css'

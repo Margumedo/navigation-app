@@ -11,15 +11,28 @@ const Home = () => {
     return (
         <SafeAreaView >
             <View className='m-10'>
-                <Link href='/products' asChild>
-                    <CustomButton color='primary' className='mb-3'>Products</CustomButton>
-                </Link>
+
                 <CustomButton
                     color='primary'
                     onPress={() => router.push('/products')}
                     className='mb-3'
-                >Products
+                >Productos
                 </CustomButton>
+                <CustomButton
+                    color='secondary'
+                    onPress={() => router.push('/profile')}
+                    className='mb-3'
+                >Perfil
+                </CustomButton>
+
+                <CustomButton
+                    color='tertiary'
+                    onPress={() => router.push('/settings')}
+                    className='mb-3'
+                >Ajustes
+                </CustomButton>
+
+
                 <CustomButton
                     color='primary'
                     onPress={() => router.push('/products')}
