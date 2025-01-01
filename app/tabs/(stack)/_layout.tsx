@@ -7,9 +7,8 @@ const StackLayout = () => {
     return (
         <Stack
             screenOptions={{
-                // headerShown: false,
+                headerShown: false,
                 headerShadowVisible: false,
-                animationDuration: 2000,
                 contentStyle: {
                     backgroundColor: 'white'
                 }
@@ -26,7 +25,6 @@ const StackLayout = () => {
                 name='products/index'
                 options={{
                     title: 'Products',
-                    animation: 'slide_from_right'
                 }}
             />
             <Stack.Screen

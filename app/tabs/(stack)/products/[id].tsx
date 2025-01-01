@@ -1,9 +1,10 @@
 
 
 
+import { productsList } from '@/store/products.store';
 import { useLocalSearchParams } from 'expo-router';
 import { View, Text } from 'react-native'
-import { productsList } from '../../../store/products.store';
+
 
 const productDetail = () => {
 

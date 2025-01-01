@@ -8,7 +8,9 @@ import { View, Text, SafeAreaView } from 'react-native'
 const App = () => {
     return (
 
-        <Redirect href={"./home"} ></Redirect>
+        // <Redirect href={"./home"} ></Redirect>
+        <Redirect href={"./drawer"} ></Redirect>
+
         // <SafeAreaView>
         //     <View className='m-5 '>
         //         <Text className='text-4xl font-work-black text-primary'>Hola desde el Home</Text>

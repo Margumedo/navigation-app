@@ -10,24 +10,24 @@ import { View, Text, SafeAreaView } from 'react-native'
 const Home = () => {
     return (
         <SafeAreaView >
-            <View className='m-10'>
+            <View className='px-10'>
 
                 <CustomButton
                     color='primary'
-                    onPress={() => router.push('/products')}
+                    onPress={() => router.push('/tabs/products')}
                     className='mb-3'
                 >Productos
                 </CustomButton>
                 <CustomButton
                     color='secondary'
-                    onPress={() => router.push('/profile')}
+                    onPress={() => router.push('/tabs/profile')}
                     className='mb-3'
                 >Perfil
                 </CustomButton>
 
                 <CustomButton
                     color='tertiary'
-                    onPress={() => router.push('/settings')}
+                    onPress={() => router.push('/tabs/settings')}
                     className='mb-3'
                 >Ajustes
                 </CustomButton>
@@ -35,7 +35,7 @@ const Home = () => {
 
                 <CustomButton
                     color='primary'
-                    onPress={() => router.push('/products')}
+                    onPress={() => router.push('/tabs/products')}
                     variant='text-only'
                     className='mb-3'
                 >Products
